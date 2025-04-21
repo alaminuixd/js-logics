@@ -18,7 +18,6 @@ function findNeedle(haystack) {
 
 const result = findNeedle(hayStack);
 console.log(result);
-
 // using recursive function
 function findNeedleRecur(arr, index = 0) {
   if (index === arr.length) return "Item not found";
